@@ -407,22 +407,26 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  
 }
 .footer-link-icon {
-  background-color: #4d5ae5;
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  background-color: #4d5ae5;
 }
 .footer-icon {
- 
 }
 .footer-link-icon:hover {
   background-color: #31d0aa;
 }
 .footer-icon-container {
-
 }
-.footer-navigation{
+.footer-navigation {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 840px;
+}
+.footer-wrap {
+  display: flex;
 }
