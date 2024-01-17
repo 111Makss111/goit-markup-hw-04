@@ -266,7 +266,7 @@ img {
 }
 .team-icon-contacts {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   gap: 24px;
 }
 .team-icon-link {
