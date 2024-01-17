@@ -411,7 +411,9 @@ img {
   display: flex;
   align-items: baseline;
 }
-.conteiner-futer {
+.container-footer {
+  margin-right: 120px;
+  display: flex;
   
 }
 .footer-link {
@@ -453,17 +455,12 @@ img {
 }
 .footer-icon-container {
 }
-.footer-navigation {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  margin-right: 840px;
-}
 .footer-icon-contacts {
   display: flex;
   justify-content: center;
-  gap: 16px;}
-  .footer-icon-link {
+  gap: 16px;
+}
+.footer-icon-link {
   width: 40px;
   height: 40px;
 }
