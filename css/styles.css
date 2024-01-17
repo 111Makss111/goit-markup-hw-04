@@ -55,10 +55,6 @@ img {
   display: flex;
   align-items: center;
 }
-.nav-menu {
-  /* position: relative;
-  color: #404bbf; */
-}
 .header-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -73,11 +69,6 @@ img {
 .header-menu {
   display: flex;
   gap: 40px;
-}
-.header-menu-list {
-  /* display: flex;
-  color: #404bbf; */
-  
 }
 .header-list {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -383,6 +374,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+}
+.portfolio-list:hover{
+  box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-list-item {
   width: calc((100% - 2 * 24px) / 3);
