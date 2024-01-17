@@ -409,13 +409,10 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
   display: flex;
-}
-.footer-wrap {
-  display: flex;
   align-items: baseline;
 }
 .conteiner-futer {
-  margin-right: 120px;
+  
 }
 .footer-link {
   color: #4d5ae5;
@@ -449,6 +446,7 @@ img {
   letter-spacing: 0.02em;
 }
 .footer-icon {
+  fill: #f4f4fd;
 }
 .footer-link-icon:hover {
   background-color: #31d0aa;
