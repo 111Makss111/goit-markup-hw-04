@@ -41,7 +41,7 @@ img {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-  background: var(--WHITE, #fff);
+  background-color: #fff;
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
@@ -54,6 +54,10 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
+}
+.nav-menu {
+  position: relative;
+  color: #404bbf;
 }
 .header-logo {
   color: #4d5ae5;
@@ -72,7 +76,7 @@ img {
 }
 .header-menu-list {
   display: flex;
-  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-list {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -85,7 +89,7 @@ img {
   left: 0;
   height: 4px;
   position: absolute;
-  bottom: 1px;
+  bottom: -1px;
   width: 100%;
 }
 
@@ -125,6 +129,9 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.heder-address {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contacts-link:hover {
   color: #404bbf;
@@ -179,7 +186,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: "background-color" 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .solutions-btn:hover {
   background-color: #404bbf;
@@ -215,7 +222,7 @@ img {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   background-color: #f4f4fd;
-  
+
   margin-bottom: 8px;
   height: 112px;
   display: flex;
@@ -256,17 +263,29 @@ img {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-.team-link-icon {
-  background-color: #4d5ae5;
+.team-icon-contacts {
+  display: flex;
+  justify-content: center;
+  gap:24px
+}
+.team-icon-link{
   width: 40px;
   height: 40px;
+}
+.team-link-icon {
+  background-color: #4d5ae5;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.team-link-icon:hover{
+  background-color:#404bbf;
 }
 .team-icon {
-  position: absolute;
-  top: 30%;
-  left: 30%;
+ fill: #f4f4fd;
 }
 .team-link-icon:hover {
   background-color: #31d0aa;
