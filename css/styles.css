@@ -409,12 +409,10 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
   display: flex;
-  align-items: baseline;
 }
 .container-footer {
-  margin-right: 120px;
   display: flex;
-  
+  align-items: baseline;
 }
 .footer-link {
   color: #4d5ae5;
@@ -425,7 +423,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
-  margin-left: 200px;
+
   display: inline-block;
 }
 .footer-blue {
@@ -437,7 +435,7 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-left: 200px;
+
   width: 264px;
 }
 .footer-social-text {
@@ -446,14 +444,16 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 .footer-icon {
   fill: #f4f4fd;
 }
-.footer-link-icon:hover {
-  background-color: #31d0aa;
+.footer-logo-conteiner {
+  margin-right: 120px;
 }
 .footer-icon-container {
+  
 }
 .footer-icon-contacts {
   display: flex;
