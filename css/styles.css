@@ -272,7 +272,6 @@ img {
 .team-icon-link {
   width: 40px;
   height: 40px;
-  
 }
 .team-link-icon {
   background-color: #4d5ae5;
@@ -287,14 +286,11 @@ img {
   fill: #f4f4fd;
 }
 .team-link-icon:hover {
-  background-color: #4d5ae5;
+  background-color: #404bbf;
 }
-.team-icon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.team-link-icon:focus {
+  background-color: #404bbf;
 }
-
 .team-menu-list {
   background-color: #ffffff;
   display: flex;
