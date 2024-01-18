@@ -107,7 +107,7 @@ img {
   font-style: normal;
   display: flex;
   margin-left: auto;
-  /* margin-left: 156px; */
+  margin-left: 156px;
 }
 .header-contact-menu {
   display: flex;
@@ -232,6 +232,7 @@ img {
 }
 .projects-text {
   color: #434455;
+  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -243,7 +244,7 @@ img {
   padding: 120px 0 120px 0;
 }
 .professional-team {
-  padding: 32px 0;
+  padding-bottom: 32px;
 }
 
 .team-title {
@@ -319,7 +320,7 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
+  margin-bottom: 8px;
   text-align: center;
 }
 /* <!------------ team-------------> */
@@ -354,7 +355,8 @@ img {
 }
 .portfolio-list-item:hover .portfolio-cover-text {
   transform: translateY(0%);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-title {
   color: #2e2f42;
@@ -376,8 +378,9 @@ img {
   position: relative;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-list-item:hover{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
+.portfolio-list-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-title-text {
   color: #2e2f42;
