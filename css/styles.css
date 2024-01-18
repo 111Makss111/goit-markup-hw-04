@@ -107,7 +107,7 @@ img {
   font-style: normal;
   display: flex;
   margin-left: auto;
-  margin-left: 156px;
+  /* margin-left: 156px; */
 }
 .header-contact-menu {
   display: flex;
